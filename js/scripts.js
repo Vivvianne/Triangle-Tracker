@@ -11,4 +11,7 @@ function triangleTracker(params) {
     if(length1===length2 && length1===length3){
         alert("You've created an equilateral triangle");
     }
+    else if (oneSide1<=length3 || oneSide2<=length2 || oneSide3<=length1){
+        alert("Sorry, not a triangle. Try Again");
+    }
 }
