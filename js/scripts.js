@@ -17,4 +17,7 @@ function triangleTracker(params) {
     else if (length1===length2 && length1!===length3){
         alert("Great! You've created an Issosceles triangle.");
     }
+    else if (length2===length3 && length1!===length2){
+        alert("Good! You've also created an Issosceles triangle.");
+    }
 }
