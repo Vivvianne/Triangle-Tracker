@@ -5,4 +5,7 @@ function triangleTracker(params) {
     var length3 = parseInt(document.getElementById("length3").value);
 
     var trianglePerimeter = [length1 + length2 + length3];
+    var oneSide1 = (length1 + length2);
+    var oneSide2 = (length1 + length3);
+    var oneSide3 = (length2 + length3);
 }
