@@ -23,5 +23,8 @@ function triangleTracker(params) {
     else if (length1!===length2 && length1!===length3) {
         alert("Wow! You've created a scalene traingle.");
     }
+    else {
+        alert("Sorry! Not a trianglePerimeter. Try again.")
+    }
     
 }
