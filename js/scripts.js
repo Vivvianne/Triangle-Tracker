@@ -14,13 +14,13 @@ function triangleTracker(params) {
     else if (oneSide1<=length3 || oneSide2<=length2 || oneSide3<=length1){
         alert("Sorry, not a triangle. Try Again.");
     }
-    else if (length1===length2 && length1!===length3){
+    else if (length1===length2 && length1!==length3){
         alert("Great! You've created an Issosceles triangle.");
     }
-    else if (length2===length3 && length1!===length2){
+    else if (length2===length3 && length1!==length2){
         alert("Good! You've also created an Issosceles triangle.");
     }
-    else if (length1!===length2 && length1!===length3) {
+    else if (length1!==length2 && length1!==length3) {
         alert("Wow! You've created a scalene traingle.");
     }
     else {
