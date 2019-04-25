@@ -1,0 +1,1 @@
+var triangle = function(Length1, length2, Length3)
