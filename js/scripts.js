@@ -10,7 +10,7 @@ function triangleTracker(params) {
     var oneSide3 = (length2 + length3);
 
     
-    if(isNaN(length1+length2+length3) ||length1*length2*length3 ===0){//validate for blank and zero input
+    if(isNaN(length1+length2+length3) ||length1*length2*length3 ===0){
         alert("Enter a valid input");
     }
     
