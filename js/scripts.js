@@ -8,7 +8,11 @@ function triangleTracker(params) {
     var oneSide1 = (length1 + length2);
     var oneSide2 = (length1 + length3);
     var oneSide3 = (length2 + length3);
-    if(length1===length2 && length1===length3){
+    if(length1 || length2 || length3 ===0){
+        alert("INVALID");
+    }
+
+    else if(length1===length2 && length1===length3){
         alert("You've created an equilateral triangle.");
     }
     else if (oneSide1<=length3 || oneSide2<=length2 || oneSide3<=length1){
