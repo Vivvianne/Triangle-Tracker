@@ -1,3 +1,6 @@
-body{
-    background-image: url("/images/triangle.jpg");
+body {
+    background-image: url("/images/triangle-background.jpg");
+}
+.jumbotron {
+    background: rgba(0, 0, 0, 0);
 }
