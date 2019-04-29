@@ -31,7 +31,7 @@ function triangleTracker(params) {
         alert("Wow! You've created a scalene traingle.");
     }
     else {
-        alert("Sorry! Not a trianglePerimeter. Try again.")
+        alert("Sorry! Not a triangle. Try again.")
     }
     
 }
