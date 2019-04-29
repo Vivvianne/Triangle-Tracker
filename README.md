@@ -16,12 +16,26 @@ Visit the website at
 
 ## Behavior Driven Development
 
-  |Our Program should handle| Input Example    | Output Example         |
-  |-------------------------|------------------|------------------------|
-  |Should tell you, to get a|No input          | Enter a valid input    |
-  |result you need to enter |                  |                        |
-  |-------------------------|------------------|------------------------|                         |
-  |
+  |Our Program should handle | Input Example     | Output Example         |
+  |:-------------------------|-------------------|------------------------|
+  |Should tell you, to get a | No input          | Enter a valid input    |
+  |result, you need to enter |                   |
+  |an input                  |                   |                        |
+  |                          |                   |
+  |Should alert you when     | Inputs for all the| You've created an      |
+  |You've created an         | Lengths are equal | equilateral triangle   |
+  |triangle                  |                   |                        |                                                     |
+  |Should alert you when you | Inputs of two     |Great! you've created   |
+  |have created Issoscelles  | lengths are equal |an Issoscelles triangle |
+  |triangle.                 |                   |                        |
+  |                          |                   |                        |
+  |Should alert you when you |Inputs in all the  |Wow! You've created a 
+  |have created a scalene    |lengths are not    |scalene triangle.       |    
+  |triangle.                 |equal.             |                        |
+
+
+
+
 
 ## Technology used
 Html5, css and java script has been used in this program.
